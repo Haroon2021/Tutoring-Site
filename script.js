@@ -15,64 +15,46 @@ const subjects = [
   
   const reviews = [
     {
-      name: 'Sophie M.',
+      name: 'Maria Esmeralda.',
       course: 'A Level Mathematics',
       review:
-        'My confidence improved massively after just a few lessons. Everything was explained clearly and patiently.',
+        'Fantastic tutor. Punctual and reliable. My son, who needed help with Y12 maths, is finding his lessons really helpful.',
     },
     {
-      name: 'Daniel R.',
-      course: 'University Economics',
+      name: 'Monika',
+      course: 'A Level Mathematics and Economics',
       review:
-        'Excellent support with macroeconomics and econometrics. Difficult topics became much easier to understand.',
+        '"Great tutor! Haroon was very thorough, straightforward and to the point. He was great at explaining and my son has learnt a lot. He has helped him to enhance his skills and because of his help he achieved an A* in his latest economics mock exam. Highly recommended. Monika&Oli',
     },
     {
-      name: 'Amelia T.',
-      course: 'GCSE Maths',
-      review:
-        'Very supportive and organised lessons. I achieved a much better result than expected.',
-    },
-    {
-      name: 'James L.',
-      course: 'AS Level Mathematics',
-      review:
-        'The lessons were structured really well and helped me improve my exam technique significantly.',
-    },
-    {
-      name: 'Olivia H.',
-      course: 'Undergraduate Economics',
-      review:
-        'Fantastic support with essays and economic analysis. I felt much more confident before exams.',
-    },
-    {
-      name: 'Ethan P.',
-      course: 'GCSE Maths',
-      review:
-        'Patient teaching style and very encouraging throughout every session.',
-    },
-    {
-      name: 'Grace W.',
+      name: 'Nicola',
       course: 'A Level Economics',
       review:
-        'Complex diagrams and theories were explained in a simple and memorable way.',
+        "Haroon is a great tutor who has the ability to go beyond a textbook answer really explaining evaluative points well. It is clear he is passionate about his subject which is important in a tutor! My son went from getting D's in the middle of Lower Sixth to achieving A's and B's by the end of Lower 6th with the help of Haroon. I would highly recommend him as a tutor.",
     },
     {
-      name: 'Noah C.',
-      course: 'University Economics',
+      name: 'Aljawharah',
+      course: 'Degree level Economics (Masters)',
       review:
-        'Very knowledgeable tutor who helped me improve both coursework and exam performance.',
+        "Haroon is an excellent tutor who is very knowledgeable and conveys his knowledge of complex material in a manner easily understandable. I'm doing a master's in Economics at the Queen Mary University of London. He helped me enormously in preparing for my exams specifically Microeconomics. I would recommend Haroon to anyone who is looking for an amiable, intelligent, and respectful teacher.",
     },
     {
-      name: 'Charlotte B.',
-      course: 'A Level Mathematics',
+      name: 'Tony',
+      course: 'Degree level Economics (Undergraduate)',
       review:
-        'Clear explanations and excellent preparation for difficult topics like calculus and statistics.',
+        "Haroon provided superb support to my microeconomics studies at university. In all honesty, his teaching is of a higher standard than the teaching at my own university , the London School of Economics . Haroon is a first class economist and actuarial scientist as well as a talented and generous tutor. After just one lesson with him , you will feel a weight lifted off your shoulders as far as questions that have been troubling you all week. He makes sure to answer all your questions so that you may build fundamental understanding to tackle any problem thrown at you in an exam. He is thoughtful, rigorous and intelligent. In my experience, these traits rub off on his students which is greatly motivating. I highly recommend Haroon as economics tutor at any level.",
     },
     {
-      name: 'Henry D.',
-      course: 'GCSE Maths',
+      name: 'Joanna',
+      course: 'A Level Maths',
       review:
-        'I became much more confident solving problems independently after a few weeks of lessons.',
+        "Haroon is an excellent tutor who has helped my daughter enormously with her 'A' Level Maths course. He has been able to explain complex Maths topics in a way which has enabled her to understand things she had previously really struggled with. His teaching style is very thorough. He is helping her far more than her ordinary Maths lessons at school and in the topics he has taught her she has achieved 100% marks. He is extremely pleasant and very reliable too and spends a great deal of time and effort during his tutoring sessions. He is the best tutor we have ever had for Maths.",
+    },
+    {
+      name: 'Hannah',
+      course: 'Degree level Economics (Undergraduate)',
+      review:
+        "Haroon is brilliant at explaining different concepts and is very patient. Without his help, I could not have passed my degree.",
     },
   ];
   
