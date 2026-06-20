@@ -46,7 +46,7 @@ const subjects = [
     },
     {
       name: 'Joanna',
-      course: 'A Level Maths',
+      course: 'A Level Mathematics',
       review:
         "Haroon is an excellent tutor who has helped my daughter enormously with her 'A' Level Maths course. He has been able to explain complex Maths topics in a way which has enabled her to understand things she had previously really struggled with. His teaching style is very thorough. He is helping her far more than her ordinary Maths lessons at school and in the topics he has taught her she has achieved 100% marks. He is extremely pleasant and very reliable too and spends a great deal of time and effort during his tutoring sessions. He is the best tutor we have ever had for Maths.",
     },
@@ -55,6 +55,12 @@ const subjects = [
       course: 'Degree level Economics (Undergraduate)',
       review:
         "Haroon is brilliant at explaining different concepts and is very patient. Without his help, I could not have passed my degree.",
+    },
+    {
+      name: 'Sabrina',
+      course: 'GCSE Mathematics and Additional Mathematics',
+      review:
+        "Haroon was an exceptional tutor for my daughter, teaching her both GCSE Maths and Additional Maths. His excellent teaching played a huge part in her achieving a Grade 9 in GCSE Maths and an A in Additional Maths. He is reliable, flexible, and always explains difficult concepts in a clear and easy-to-understand way, giving her the confidence to succeed. His patience, dedication, and supportive approach made every lesson worthwhile. I highly recommend Haroon to anyone looking for an outstanding maths tutor.",
     },
   ];
   
