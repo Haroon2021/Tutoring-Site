@@ -63,6 +63,60 @@ const subjects = [
         "Haroon was an exceptional tutor for my daughter, teaching her both GCSE Maths and Additional Maths. His excellent teaching played a huge part in her achieving a Grade 9 in GCSE Maths and an A in Additional Maths. He is reliable, flexible, and always explains difficult concepts in a clear and easy-to-understand way, giving her the confidence to succeed. His patience, dedication, and supportive approach made every lesson worthwhile. I highly recommend Haroon to anyone looking for an outstanding maths tutor.",
     },
   ];
+
+  const videos = [
+    {
+      title: "Algebra Basics",
+      url: "https://www.youtube.com/embed/exampleVideoID1",
+    },
+    {
+      title: "Calculus Introduction",
+      url: "https://www.youtube.com/embed/exampleVideoID2",
+    },
+  ];
+
+  const economicsVideos = [
+    {
+      title: "Supply and Demand Basics",
+      url: "https://www.youtube.com/embed/exampleVideoID3",
+    },
+    {
+      title: "Macroeconomics Overview",
+      url: "https://www.youtube.com/embed/exampleVideoID4",
+    },
+  ];
+  
+  function renderEconomicsVideos() {
+    const container = document.getElementById("economics-videos-container");
+  
+    economicsVideos.forEach((video) => {
+      const iframe = document.createElement("iframe");
+      iframe.src = video.url;
+      iframe.title = video.title;
+      iframe.frameBorder = "0";
+      iframe.allow =
+        "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+      iframe.allowFullscreen = true;
+  
+      container.appendChild(iframe);
+    });
+  }
+  
+  function renderVideos() {
+    const container = document.getElementById("videos-container");
+  
+    videos.forEach((video) => {
+      const iframe = document.createElement("iframe");
+      iframe.src = video.url;
+      iframe.title = video.title;
+      iframe.frameBorder = "0";
+      iframe.allow =
+        "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+      iframe.allowFullscreen = true;
+  
+      container.appendChild(iframe);
+    });
+  }
   
   function renderSubjects() {
     const container = document.getElementById('subjects-container');
@@ -127,6 +181,8 @@ const subjects = [
     renderSubjects();
     renderReviews();
     initialiseReviewToggle();
+    renderVideos();
+    renderEconomicsVideos();
   }
   
   initialiseWebsite();
