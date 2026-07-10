@@ -347,3 +347,25 @@
     margin-bottom: 20px; /* Add spacing below the image */
   }
 }
+
+/* Default layout (desktop/tablet) */
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap; /* Prevent wrapping by default */
+  gap: 15px; /* Add spacing between items */
+}
+
+/* Mobile layout */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-wrap: wrap; /* Allow items to wrap into multiple lines */
+    justify-content: center; /* Center-align items for better appearance */
+    gap: 10px; /* Adjust spacing for smaller screens */
+  }
+
+  .nav-links li {
+    flex: 1 1 45%; /* Make each item take up about half the width */
+    text-align: center; /* Center-align text for better readability */
+  }
+}
