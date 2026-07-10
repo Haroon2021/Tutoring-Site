@@ -295,3 +295,55 @@
     height: 200px;
     border-radius: 8px; /* Optional: Adds rounded corners to the videos */
   }
+
+  .about-tutor-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .about-tutor-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .tutor-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tutor-details {
+    max-width: 600px;
+  }
+  
+  .tutor-details h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .tutor-details p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+
+  /* Default layout (desktop/tablet) */
+.about-tutor-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Mobile layout */
+@media (max-width: 768px) {
+  .about-tutor-content {
+    flex-direction: column; /* Stack the image and text vertically */
+    text-align: center; /* Center-align content for better appearance */
+  }
+
+  .tutor-image img {
+    margin-bottom: 20px; /* Add spacing below the image */
+  }
+}
