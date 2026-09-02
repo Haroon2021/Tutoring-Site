@@ -64,26 +64,35 @@ const subjects = [
     },
   ];
 
-  const videos = [
-    {
-      title: "Algebra Basics",
-      url: "https://www.youtube.com/embed/exampleVideoID1",
-    },
-    {
-      title: "Calculus Introduction",
-      url: "https://www.youtube.com/embed/exampleVideoID2",
-    },
-  ];
+  // const videos = [
+    // {
+    //   title: "Integration by Substitution",
+    //   url: "https://youtube/aYLaYboCKwk",
+    // },
+    // {
+    //   title: "Integration by Parts",
+    //   url: "https://www.youtube.com/watch?v=RfKwTV6qqVQ",
+    // },
+    // {
+    //   title: "AQA Paper 1 June 2024 Q10",
+    //   url: "https://www.youtube.com/watch?v=T18hGuyYer4",
+    // },
+    // {
+    //   title: "test",
+    //   url: "https://www.youtube.com/watch?v=6J2eSmYM7zM&pp=ugUEEgJlbg%3D%3D",
+    // }
+
+  // ];
 
   const economicsVideos = [
     {
       title: "Supply and Demand Basics",
-      url: "https://www.youtube.com/embed/exampleVideoID3",
+      url: "https://youtu.be/RfKwTV6qqVQ",
     },
-    {
-      title: "Macroeconomics Overview",
-      url: "https://www.youtube.com/embed/exampleVideoID4",
-    },
+    // {
+    //   title: "Macroeconomics Overview",
+    //   url: "https://www.youtube.com/embed/exampleVideoID4",
+    // },
   ];
   
   function renderEconomicsVideos() {
